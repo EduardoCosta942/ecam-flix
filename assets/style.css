@@ -1,0 +1,53 @@
+/*This .CSS file was developed for setting default style for commum tags*/
+/*Working at Global*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #FF3C6A;
+}
+
+/*Setting global font style*/
+h1, h2, h3, h4, h5, h6, p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+/*Working at header*/
+header {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #FF3C6A;
+}
+
+/*Working at ul header*/
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    font-size: 2rem;
+}
+header ul li a{
+    background-color: #2E2E2E;
+    padding: 10px;
+    text-decoration: none;
+    color: #FF3C6A;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #FF3C6A;
+}
+footer p {
+    text-align: center;
+    padding: 20px;
+}
