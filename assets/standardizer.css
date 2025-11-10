@@ -6,8 +6,7 @@
     --black: #3A3A3A;
 }
 
-/*This .CSS file was developed for setting default style for commum tags*/
-/*Working at Global*/
+
 * {
     margin: 0;
     padding: 0;
@@ -18,13 +17,13 @@ body {
     background-color: var(--main_color);
 }
 
-/*Setting global font style*/
+
 h1, h2, h3, h4, h5, h6, p {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
 }
 
-/*Working at header*/
+
 header {
     z-index: 1;
     display: flex;
@@ -33,7 +32,7 @@ header {
     background-color: var(--main_color);
 }
 
-/*Working at ul header*/
+
 header ul {
     display: flex;
     align-items: center;

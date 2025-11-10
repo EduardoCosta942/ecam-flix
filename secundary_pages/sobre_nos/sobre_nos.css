@@ -19,7 +19,7 @@ main section div h2 {
 
 main section div div {
     margin-top: 50px;
-    background-color: var(--main_color);
+    background-color: var(--white);
     width: 1000px;
     margin-bottom: 50px;
 }

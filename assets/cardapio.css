@@ -1,6 +1,6 @@
 @import url("/assets/style.css");
 
-/*Modificando container que dispoe a respeito da Main do site*/
+
 main {
     position: relative;
     display: flex;
@@ -28,7 +28,6 @@ main > * {
     z-index: 2;
 }
 
-/*Modificando container que sera disponivel para a visualizacao dos filmes*/
 .editableSpace {
     display: flex;
     flex-direction: column;
@@ -39,7 +38,6 @@ main > * {
     justify-content: center;
 }
 
-/* Working at aside: */
 aside {
     padding-top: 50px;
     position: fixed;
@@ -81,7 +79,6 @@ aside table td {
     padding-bottom: 5px;
 }
 
-/*Defining propierties of h2 at editable space*/
 .editableSpace h2 {
     align-content: center;
     text-align: center;
@@ -94,7 +91,6 @@ aside table td {
     margin-top: 50px;
 }
 
-/*Whole container of the movies:*/
 .editableSpace div {
     width: 1220px;
     display: flex;
@@ -106,7 +102,6 @@ aside table td {
     overflow-y: hidden;
 }
  
-/*divisions of the movie container:*/
 .editableSpace div div {
     margin-left: 10px;
     margin-right: 10px;
@@ -122,7 +117,6 @@ aside table td {
     overflow: hidden;
 }
 
-/*Working into the movies containers:*/
 .editableSpace div div img {
     width: 100px;
     height: 160px;
@@ -133,7 +127,6 @@ aside table td {
     margin-right: 12px;
 }
 
-/*conteúdo de texto dentro do card*/
 .editableSpace div div div {
     display: flex;
     flex-direction: column;
